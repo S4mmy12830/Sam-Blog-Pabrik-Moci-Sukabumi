@@ -1,0 +1,87 @@
+body {
+    background-color: brown;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    gap :20px;
+}
+
+.header {
+    display: flex;
+    background-color: rgb(162, 10, 10);
+    width: auto;
+    height :100px;
+    border-radius: 5px;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.judul {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    gap :20px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.lam {
+    width:300px;
+    height: 200px;
+    border-radius: 10px;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+}
+
+.lam ::-webkit-scrollbar() {
+    display: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap :10px;
+}
+
+.isi {
+    background-color: white;
+    justify-content: center;
+    width: auto;
+    border-radius: 10px;
+}
+
+
+.penjelasan {
+    display :flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.teks {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.footer {
+    display: flex;
+    background-color: rgb(162, 10, 10);
+    width: auto;
+    height :100px;
+    border-radius: 5px;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.trims {
+    font-family: Arial, Helvetica, sans-serif;
+}
