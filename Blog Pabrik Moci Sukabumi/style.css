@@ -1,5 +1,7 @@
 body {
+
     background-color: brown;
+
 }
 
 .blog {
@@ -16,6 +18,8 @@ body {
     border-radius: 5px;
     justify-content: flex-start;
     gap: 20px;
+    position: sticky;
+    top :0;
 }
 
 .logo {
